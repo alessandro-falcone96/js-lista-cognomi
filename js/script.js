@@ -1,5 +1,6 @@
 var cognome = prompt("Inserisci il tuo cognome: ");
-var listaCognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
+var listaCognomi = ["bianchi", "rossi", "duzioni", "balsano", "verdi"];
+cognome = cognome.toLowerCase();
 listaCognomi.push(cognome);
 console.log(listaCognomi);
 var listaCognomiAlfabetica = listaCognomi.sort();
